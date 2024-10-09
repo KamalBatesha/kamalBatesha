@@ -3,6 +3,7 @@ import project2 from "../assets/projects/2.png";
 import project3 from "../assets/projects/3.png";
 import project4 from "../assets/projects/4.png";
 import project5 from "../assets/projects/5.png";
+import project6 from "../assets/projects/6.png";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.Js, My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -53,7 +54,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "The website Metaversus discusses the concept of the metaverse, a virtual reality space where users can engage in immersive experiences",
-    technologies: ["HTML", "CSS", "next.js", "framer-motion","tailwind"],
+    technologies: ["HTML", "CSS", "next.js", "framer-motion","tailwind","Typescript"],
   link:"https://metaverse-lime-xi.vercel.app/"
   },
   {
@@ -82,10 +83,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS","javascript", "React"],
   link:"https://explore-lilac.vercel.app/"
   },
+  {
+    title: "Massimo",
+    image: project6,
+    description:
+      "A site to order meals such as pizza , responsive  in all types of screens , i used special library called react-countdown to make the countdown",
+    technologies: ["HTML", "CSS", "next.js","Typescript","tailwind"],
+  link:"https://restaurant-massimo.vercel.app/"
+  },
 ];
 
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
-};
